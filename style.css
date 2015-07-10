@@ -1,0 +1,599 @@
+html, body{
+margin :0;
+}
+
+/*Menu*/
+.nav
+{
+font-family:Oswald;
+font-style:bold;	
+font-size: 1.45em;
+background-color: black; 	
+padding-bottom:1em;
+padding-left:0.2em;
+padding-right:0.75em;
+position:fixed;
+width:100%;
+top:-0.05em;
+z-index:10;
+}
+
+#menu ul{
+list-style-type: none;
+height:0.8em;
+}
+
+#menu li{
+font-size: 20px;
+float: left;
+padding-left: 1em;
+display:inline;
+padding-top: 0.5em; 
+}
+
+#menu a {
+display: block;
+width: 8em;
+color: white;	
+background-color: black;
+text-decoration: none;
+text-align: center;
+}
+
+#menu a:hover {
+	border-bottom: 7px solid white;
+}
+
+/*About*/
+#aboutSection1{
+height:46.5em;
+background-color:white;
+padding: 0.5em;
+}
+
+#aboutSection1 h1{
+font-family:Oswald;
+font-size:4em;
+position:relative;
+text-align:center;
+color:rgb(48,48,48);
+padding-top: 0.75em;
+}
+
+#aboutSection1 h2{
+font-family:Oswald;
+font-size:2em;
+position:relative;
+text-align:center;
+color:white;
+padding-top: 1em;
+
+}
+
+#garisAbout{
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:-1.5em;
+}
+
+#aboutSection1 p{
+font-family:Oswald;
+font-size:2em;
+text-align:center;
+color:rgb(48,48,48);
+}
+
+#panahAbout1{
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:2.5em;
+}
+
+#aboutSection2{
+height:46.5em;
+background-color:rgb(48,48,48);
+}
+
+#aboutSection2 p{
+font-family:Oswald;
+font-size:3em;
+color:white;
+position:relative;
+margin-right:auto;
+top:-13.5em;
+left:1.5em;
+width:500px;
+}
+
+#garisAbout2{
+position:relative;
+top:-41em;
+left:4.7em;
+display:block;
+margin-right:auto;
+margin-top:-1.5em;
+}
+
+#panahAbout2{
+position:relative;
+top:-34em;
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:2.5em;
+}
+
+#school{
+ height: 46.5em;
+ background-color:lightsteelblue;
+margin-top: 3em;
+}
+#school h2{
+    padding-top: 1.5em;
+font-family:Oswald;
+font-size:4em;
+position:relative;
+text-align:center;
+color:whitesmoke;
+}
+#school ul {
+   padding-right: 1em;
+	text-align: center;
+    font-family:Oswald;
+    font-size: 2em;
+    list-style-type: none;
+    color:whitesmoke;
+}
+#aboutSection3{
+height:46.5em;
+background-color:rgb(48,48,48);
+margin-top:-3em;
+}
+
+#aboutSection3 h2{
+color:rgb(48,48,48);
+position:relative;
+top:1em;
+}
+
+#aboutSection3 h1{
+color:white;
+font-family:Oswald;
+font-size:4em;
+position:relative;
+top:-0.5em;
+left:0.25em;
+width:500px
+}
+
+#garisFounder{
+position:relative;
+top:-4.5em;
+left:1em;
+}
+
+#aboutSection3 p{
+color:white;
+font-family:Oswald;
+font-size:1.9em;
+position:relative;
+top:-2.8em;
+left:0.55em;
+text-align:left;
+width:500px;
+}
+
+#panahAbout3{
+position:relative;
+top:-3.5em;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+ul.img-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+width:800px;
+float:right;
+}
+ 
+ul.img-list li {
+display: inline-block;
+height: 238px;
+margin: 0 1em 1em 0;
+position: relative;
+width: 238px;
+}
+
+span.text-content {
+font-family:Oswald;
+font-size:1.75em;
+background: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+display: table;
+height: 238px;
+left: 0;
+position: absolute;
+top: 0;
+width: 238px;
+}
+ 
+span.text-content span {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+display: table;
+height: 238px;
+left: 0;
+position: absolute;
+top: 0;
+width: 238px;
+opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+opacity: 1;
+}
+
+span.text-content {
+background: rgba(0,0,0,0.5);
+color: white;
+cursor: pointer;
+display: table;
+height: 238px;
+left: 0;
+position: absolute;
+top: 0;
+width: 238px;
+opacity: 0;
+-webkit-transition: opacity 500ms;
+-moz-transition: opacity 500ms;
+-o-transition: opacity 500ms;
+transition: opacity 500ms;
+}
+
+/* Products */
+#productsSection{
+height:31.5em;
+background-color:white;
+margin-top:-1.4em;
+}
+
+#productsSection h1{
+font-family:Oswald;
+font-size:4em;
+text-align:center;
+}
+
+#productsSection h2{
+color:white;
+}
+
+#garisHitam{
+display:block;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:-2.5em;
+}
+
+ul.img-listProduct {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+ul.img-listProduct li {
+  display: inline-block;
+  height: 238px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 238px;
+}
+
+span.text-contentProduct {
+  font-family:Oswald;
+  font-size:1.85em;
+  background:rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 238px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+ 
+span.text-contentProduct span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#productsSection2{
+background-color:black;
+height:10.5em;
+margin-top:-1.5em;
+}
+
+#productsSection2 p{
+font-family:Oswald;
+font-size:1.5em;
+color:white;
+text-align:center;
+position:relative;
+top:1.5em;
+}
+
+/* clients */
+#clientsSection{
+height:40em;
+background-color:white;
+margin-top:-1.5em;
+}
+
+#clientsSection h1{
+font-family:Oswald;
+font-size:4em;
+text-align:center;
+position:relative;
+top:-0.3em;
+}
+
+#clientsSection h2{
+color:white;
+}
+
+#garisHitamClient{
+display:block;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:-4em;
+}
+
+#clientImageList1{
+display:inline-table;
+width:275px;
+margin:0;
+position:relative;
+top:-9.2em;
+}
+
+#clientImageList2{
+display:inline;
+width:550px;
+position:relative;
+top:-3em;
+}
+
+#clientImageTxt{
+background-color:rgb(48,48,48);
+height:250px;
+width:32em;
+position:relative;
+top:-26.5em;
+left:52.3em;
+}
+
+#clientImageTxt h1{
+font-family:Oswald;
+font-size:1.7em;
+color:white;
+text-align:left;
+position:relative;
+left:0.5em;
+width:200px;
+position:relative;
+top:0.25em;
+}
+
+#stripClientImageTxt{
+position:relative;
+top:-0.7em;
+left:0.85em;
+}
+
+#clientImageTxt p{
+font-family:Oswald;
+font-size:1.3em;
+color:white;
+position:relative;
+top:-1.4em;
+left:0.65em;
+width:450px;;
+}
+
+#clientsLogo{
+display:block;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:-25.5em;
+float:center;
+width:875px;
+}
+
+#clientsLogo a{
+font-size:0;
+width:155px;
+margin: 0 auto;
+border:8px solid white;
+display:inline-block;
+}
+
+#clientsLogo a:hover{
+border-color:grey;
+}
+
+/* Activity */
+#activitySection{
+background-color:rgb(48,48,48);
+height:40em;
+margin-top:-1em;
+}
+
+#instagramActivity{
+display:inline-block;
+}
+
+#instagramActivity img{
+position:relative;
+left:3.5em;
+width:250px;
+height:250px;
+}
+
+#activitySection h1{
+font-family:Oswald;
+font-size:4em;
+text-align:center;
+position:relative;
+top:-0.3em;
+color:white;
+}
+
+#activitySection h2{
+color:rgb(48,48,48);
+}
+
+#garisPutihActivity{
+display:block;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+top:-4em;
+}
+
+/* Contact */
+#contactSection{
+background-color:rgb(48,48,48);
+height:50em;
+margin-top:-2.65em;
+margin-bottom:-30em;
+    
+}
+
+/* SECTION GET IN TOUCH */
+
+#section4 {
+	width: 100%;
+	height:100%;
+	background-color: rgb(48,48,48);
+	font-size: 18px;
+}
+
+#section4 h2 {
+	font-size: 3em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+    font-feature-settings: Oswald;
+}
+
+.bottomcontent {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+/* SOCIALE */
+#section4a {
+	width: 50%;
+	height: 100%;
+	background-color: rgb(48,48,48);
+	color: white;
+	float:left;
+	
+}
+#section4 a:link {
+    text-decoration: none;
+}
+#section4a h2{
+    font-family: Oswald;
+}
+#section4a p{
+    font-family: Oswald;
+    text-decoration: none;
+    color: white;
+    text-decoration-line: none;
+}
+.iconz {
+	width: 50%;
+	margin: 15% auto;
+	text-align: center;
+}
+
+.icons {
+	font-size : 10em;
+	text-align: center;
+	margin: 0 12.5% 12.5% 10%;
+
+}
+
+.iconz a:link {
+	color: white;
+    text-decoration: none;
+}
+
+
+.iconz a:visited {
+	color: inherit;
+}
+
+.iconz a:hover {
+	color:darkgray;
+}
+
+
+/* MAIL ME */
+#section4b {
+	width: 50%;
+	height: 100%;
+	background-color:white;
+	color:rgb(48,48,48) ;
+	float:left;
+}
+#section4b h2{
+    font-family: Oswald;
+
+}
+#section4b p{
+    font-family: Oswald;
+}
+#contactz {
+	font-size: 15em;
+
+}
+
+#section4b a:link {
+	color:rgb(48,48,48);
+	text-decoration: none;
+}
+
+#section4b a:visited {
+	color:inherit;
+}
+
+#section4b a:hover {
+	color: darkgray;
+}
